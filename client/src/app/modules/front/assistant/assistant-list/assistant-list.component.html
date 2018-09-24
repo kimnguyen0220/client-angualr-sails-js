@@ -20,8 +20,8 @@
 		      <td>{{item.gender == 1 ? 'Female' : 'Male'}}</td>
 		      <td>{{item.email}}</td>
 		      <td>
-		      	<button type="button" class="btn btn-danger">Delete</button>
-		      	<button type="button" class="btn btn-warning">Edit</button>
+		      	<button type="button" class="btn btn-danger" (click)="remove(item.id)">Delete</button>
+		      	<button type="button" class="btn btn-warning" (click)="editAsisstant(item.id)">Edit</button>
 		      </td>
 		    </tr>
 		  </tbody>

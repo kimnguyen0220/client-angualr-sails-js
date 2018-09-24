@@ -24,4 +24,19 @@ export class AssistantService extends BaseService {
      const url: string = BaseService.createAPIURL(this.BASE_PATH);
      return this.post(url, params);
    }
+
+   getById(id) {
+	  const url: string = BaseService.createAPIURL(`${this.BASE_PATH}/${id}`);
+	  return this.get(url);
+   }
+
+   update(id, content) {
+	  const url: string = BaseService.createAPIURL(`${this.BASE_PATH}/${id}`);
+	  return this.put(url, content);
+   }
+
+   remove(id) {
+	  const url: string = BaseService.createAPIURL(`${this.BASE_PATH}/${id}`);
+	  return this.delete(url, id);
+   }
 }

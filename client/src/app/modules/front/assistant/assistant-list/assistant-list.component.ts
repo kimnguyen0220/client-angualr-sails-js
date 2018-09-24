@@ -24,6 +24,18 @@ export class AssistantListComponent implements OnInit {
 	  	});
 	  }
 	  create() {
-	  	this.router.navigate(['create']);
+	  	this.router.navigate(['assistant/create']);
 	  }
+
+    editAsisstant(id) {
+  	  this.router.navigate(['assistant/edit'], {queryParams: {id: id}} );
+    }
+
+    remove(e) {
+  	  this.assistantService.remove(e).subscribe( res => {
+  	    alert('Remove success !');
+        this.getListAssistant();
+      });
+
+    }
 }

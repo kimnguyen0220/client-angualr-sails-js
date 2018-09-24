@@ -20,4 +20,12 @@ export class BaseService {
   public post(url: string, params: any) {
   	return this.http.post(url, params);
   }
+
+  public put(url: string, params: any) {
+    return this.http.put(url, params);
+  }
+
+  public delete(url: string, params: any) {
+    return this.http.delete(url, params);
+  }
 }

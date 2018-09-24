@@ -5,6 +5,7 @@ import { FrontComponent } from './front.component';
 import { AssistantComponent } from './assistant/assistant.component';
 import { AssistantListComponent } from './assistant/assistant-list/assistant-list.component';
 import { AssistantCreateComponent } from './assistant/assistant-create/assistant-create.component';
+import {AssistantEditComponent} from './assistant/assistant-edit/assistant-edit.component';
 
 const frontRouter: Routes = [
 	{
@@ -17,9 +18,14 @@ const frontRouter: Routes = [
 			},
 
 			{
-				path: 'create',
+				path: 'assistant/create',
 				component: AssistantCreateComponent
-			}
+			},
+
+      {
+        path: 'assistant/edit',
+        component: AssistantEditComponent
+      }
 		]
 	}
 ];

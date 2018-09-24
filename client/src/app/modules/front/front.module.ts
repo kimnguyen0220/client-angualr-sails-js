@@ -9,6 +9,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { AssistantCreateComponent } from './assistant/assistant-create/assistant-create.component';
 
 import {FormBuilder, ReactiveFormsModule, FormsModule  } from "@angular/forms";
+import { AssistantEditComponent } from './assistant/assistant-edit/assistant-edit.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -22,6 +23,7 @@ import {FormBuilder, ReactiveFormsModule, FormsModule  } from "@angular/forms";
   	AssistantComponent,
   	AssistantListComponent,
   	AssistantCreateComponent,
+  	AssistantEditComponent,
   ],
 
   providers: [ AssistantService, FormBuilder ]
