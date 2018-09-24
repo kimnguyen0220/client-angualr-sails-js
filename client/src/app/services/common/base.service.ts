@@ -27,5 +27,6 @@ export class BaseService {
 
   public delete(url: string, params: any) {
     return this.http.delete(url, params);
+    
   }
 }

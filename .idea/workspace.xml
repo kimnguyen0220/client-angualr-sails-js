@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cdadc66-b0dd-4ebc-8e9f-2139765a4d3a" name="Default" comment="" />
+    <list default="true" id="4cdadc66-b0dd-4ebc-8e9f-2139765a4d3a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/app/services/common/base.service.ts" afterPath="$PROJECT_DIR$/client/src/app/services/common/base.service.ts" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="base.service.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/app/services/common/base.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="464">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -105,10 +107,10 @@
         <option value="$PROJECT_DIR$/client/src/app/modules/front/front-routing.module.ts" />
         <option value="$PROJECT_DIR$/client/src/app/modules/front/assistant/assistant-edit/assistant-edit.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/modules/front/assistant/assistant-edit/assistant-edit.component.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/services/common/base.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/services/assistant.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/modules/front/assistant/assistant-list/assistant-list.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/modules/front/assistant/assistant-list/assistant-list.component.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/services/common/base.service.ts" />
       </list>
     </option>
   </component>
@@ -283,12 +285,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537759293474</updated>
-      <workItem from="1537759294698" duration="8345000" />
+      <workItem from="1537759294698" duration="8948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8345000" />
+    <option name="totallyTimeSpent" value="8948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -401,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/services/common/base.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="464">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
